@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name='sbober_fractals',
-    version='0.0.1',
+    version='0.0.2',
     author="Bober S.A.",
     author_email="stas.bober@gmail.com",
     description="Classes for jit-compiled fractal sets calculation",
@@ -25,5 +25,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=requirements,
-    python_requires='>=3.8, <=3.9'
+    python_requires='>=3.8, <3.10'
     )
